@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS and CSS Selector</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+        /* class selector */
+        .first{
+            background-color: red ;
+        }
+
+        /* id selector  */
+        #greenId{
+            background-color: gray;
+        }
+
+        /* child selector  */
+        div > p {
+            color: skyblue;
+            background-color: blue;
+        }
+
+        /* decendend selector  */
+        div p {
+            color: skyblue;
+            background-color: rgb(77, 145, 38);
+        }
+        p{
+            color: blue;
+        }
+
+        /* Universal Selector  */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo slector - use for anchor tag, change color after the click on link  */
+        a:visited{
+            color: pink;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: mediumseagreen;
+        }
+        p:first-child{
+            background-color: hotpink;
+            justify-content: center;
+        }
+
+
+
+    </style>
+<body>
+    <div class="first">
+        <p>My Name is Aryan</p>
+        <p>My Name is Aryan</p>
+        <p>My Name is Aryan</p>
+        <p>My Name is Aryan</p>
+    </div>
+    <div id="greenId">
+        HTLM CSS JAVASCRIPT
+        <p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur voluptatem dolorem nobis distinctio quod, quam, laudantium accusamus dignissimos iste quas, ipsum optio dolor maxime aperiam unde ex assumenda nostrum saepe velit iure provident
+    </p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quis cum ex, corrupti possimus assumenda fuga inventore quisquam perspiciatis at debitis, aliquam eligendi.</p>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet culpa doloribus ipsa maiores, incidunt quae ut nihil facilis repellat. Asperiores blanditiis excepturi architecto error explicabo fuga esse eos, accusantium voluptate repellendus. Eaque, voluptatibus consequuntur?</p>
+
+
+    <a href="http://www.google.com">Go to google</a>
+    
+</body>
+</html>

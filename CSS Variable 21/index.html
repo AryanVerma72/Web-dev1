@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Variable</title>
+    <style>
+:root{
+    --color:rgb(74, 74, 148);
+    --seccolor: rgb(176, 138, 176);
+}
+
+      .con {
+        background-color: var(--color);
+      }
+      ul li {
+        list-style: none;
+        padding: 12px;
+      }
+      ul {
+        display: flex;
+        
+      }
+      li {
+        margin: 12px;
+      }
+      p {
+        background-color: var(--seccolor);
+      }
+      ul li:first-child{
+        background-color: var(--seccolor);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="con">
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed dolores
+        aut culpa!
+      </p>
+    </div>
+  </body>
+</html>

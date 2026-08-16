@@ -4,8 +4,8 @@
 // export const d = 4
 // export const e = 5
 
-// let obj;
-// export default obj = {
-//     x : 4,
-//     y : 5
-// }
+let obj;
+export default obj = {
+    x : 4,
+    y : 5
+}

@@ -1,8 +1,8 @@
 // import {a} from "./mymodule.js"
 // console.log(a)
 
-// import obj from "./mymodule.js"
-// console.log(obj)
+import obj from "./mymodule.js"
+console.log(obj)
 
 
 

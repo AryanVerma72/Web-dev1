@@ -11,11 +11,16 @@ const port = 3000
 
 app.get('/', (req, res) => {
     const todo = new Todo({
-        Title: "This is first todo", dec: "Description", isDone: false
+        title: "This is first todo", dec: "Description", isDone: false 
         
     })
     todo.save()
     res.send('Hello World!')
+})
+
+app.get('/a' , async(req,res) =>{
+    let todo = await Todo.findOne({})
+    res.json({title : "Todo" , dec : "Description"})
 })
 
 app.listen(port, () => {

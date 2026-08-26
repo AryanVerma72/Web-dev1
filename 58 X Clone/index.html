@@ -14,7 +14,7 @@
 <body class="bg-black text-white">
 
     <div class="flex container  mx-auto">
-        <div class="first  w-[57%]">
+        <div class="first  w-1/2">
             <svg viewBox="0 0 24 24" aria-hidden="true"
                 class="my-3 mx-[26px] m-auto invert w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                 <g>
@@ -46,63 +46,90 @@
                     <li
                         class="flex justify-start items-center gap-4 w-fit hover:bg-zinc-900 py-2 hover:rounded-full px-5 cursor-pointer">
                         <span class="material-symbols-outlined">
-mark_chat_unread
-</span>Chat
+                            mark_chat_unread
+                        </span>Chat
                     </li>
                     <li
                         class="flex justify-start items-center gap-4 w-fit hover:bg-zinc-900 py-2 hover:rounded-full px-5 cursor-pointer">
-                        <svg viewBox="0 0 33 32" aria-hidden="true" class="invert w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e"><g><path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg>
-                        
+                        <svg viewBox="0 0 33 32" aria-hidden="true"
+                            class="invert w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                            <g>
+                                <path
+                                    d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                </path>
+                            </g>
+                        </svg>
+
                         Grok
                     </li>
                     <li
                         class="flex justify-start items-center gap-4 w-fit hover:bg-zinc-900 py-2 hover:rounded-full px-5 cursor-pointer">
                         <span class="material-symbols-outlined">
-bookmark
-</span>History
+                            bookmark
+                        </span>History
                     </li>
                     <li
                         class="flex justify-start items-center gap-4 w-fit hover:bg-zinc-900 py-2 hover:rounded-full px-5 cursor-pointer">
                         <span class="material-symbols-outlined">
-verified
-</span>Preminium
+                            verified
+                        </span>Preminium
                     </li>
                     <li
                         class="flex justify-start items-center gap-4 w-fit hover:bg-zinc-900 py-2 hover:rounded-full px-5 cursor-pointer">
                         <span class="material-symbols-outlined">
-account_circle
-</span>Profile
+                            account_circle
+                        </span>Profile
                     </li>
                     <li
                         class="flex justify-start items-center gap-4 w-fit hover:bg-zinc-900 py-2 hover:rounded-full px-5 cursor-pointer">
                         <span class="material-symbols-outlined">
-pending
-</span>More
+                            pending
+                        </span>More
                     </li>
 
                 </ul>
             </div>
         </div>
-        <div class="second border border-[rgb(78,78,78)] border-y-black  w-full">bb</div>
-        <div class="third bg-black w-full">
+        <div class="second border border-[rgb(78,78,78)] border-y-black  w-full">
+            <div class="top flex">
+                <div class="w-1/2  hover:transition-all duration-300 hover:bg-zinc-800 flex justify-center items-center py-3 font-bold" >For you</div>
+                <div class="w-1/2  flex justify-center items-center py-3 text-zinc-400 font-medium hover:transition-all duration-300 hover:bg-zinc-800">Following</div>
+                <div class="flex justify-center items-center  "><span class="hover:transition-all duration-300 hover:bg-zinc-800 py-4 px-5 text-zinc-400 text-sm material-symbols-outlined">add</span></div>
+            </div>
+            <div class=" border w-full border-zinc-900 "></div>
+
+            <div class="profile flex">
+                <div class="rounded-full w-10"><img class="rounded-full w-10" src="4th.jpg" alt=""> </div>
+                <div>
+                    <div>What’s happening?</div>
+                    <div class="icons">
+
+                    </div>
+                
+                </div>
+            </div>
 
 
-            <input type="text" class="w-3/4 rounded-full bg-black text-zinc-900 p-2 border border-zinc-900 my-2 mx-6"
+        </div>
+        <div class="third bg-black w-4/6">
+
+
+            <input type="text" class="w-5/6 rounded-full bg-black text-zinc-900 p-2 border border-zinc-900 my-2 mx-6"
                 placeholder="search">
 
-            <div class="subscribe my-2 w-3/4 border rounded-2xl border-zinc-900 mx-6">
+            <div class="subscribe my-2 w-5/6 border rounded-2xl border-zinc-900 mx-6">
                 <h1 class="subs my-3 mx-5 text-xl font-bold">Subscribe to Premium</h1>
-                <h3 class="rid mx-5">Get rid of ads, see your analytics, boost your replies and unlock 20+ features.
+                <h3 class="rid mx-5 font-light">Get rid of ads, see your analytics, boost your replies and unlock 20+ features.
                 </h3>
                 <!-- <span>Subscribe</span> -->
                 <button class="my-3 mx-5 px-5 py-2 bg-blue-500 rounded-full font-bold">Subscribe</button>
             </div>
 
-            <div class="my-4 border w-3/4 border-zinc-900 mx-6"></div>
+            <div class="my-4 border w-5/6 border-zinc-900 mx-6"></div>
 
-            <div class="whats my-2 w-3/4 border rounded-2xl border-zinc-900 mx-6 ">
+            <div class="whats my-2 w-5/6 border rounded-2xl border-zinc-900 mx-6 ">
                 <h1 class="mx-5 my-5 text-xl font-bold">What’s happening</h1>
-                <div class="py-3 hover:bg-zinc-950 cursor-pointer">
+                <div class="py-3 hover:bg-zinc-950 cursor-pointer hover:transition-all duration-300">
                     <div class="trend mx-5 flex items-end justify-between ">
                         <div class="text-xs text-zinc-600 ">
                             Only on X · Trending
@@ -121,7 +148,7 @@ pending
                     <div class="mx-5 font-bold">#Nepal</div>
                 </div>
 
-                <div class="py-3 hover:bg-zinc-950 cursor-pointer">
+                <div class="py-3 hover:bg-zinc-950 cursor-pointer hover:transition-all duration-300">
                     <div class="trend mx-5 flex items-end justify-between ">
                         <div class="text-xs text-zinc-600 ">
                             Only on X · Trending
@@ -140,7 +167,7 @@ pending
                     <div class="mx-5 font-bold">#Nepal</div>
                 </div>
 
-                <div class="py-3 hover:bg-zinc-950 cursor-pointer">
+                <div class="py-3 hover:bg-zinc-950 cursor-pointer hover:transition-all duration-300">
                     <div class="trend mx-5 flex items-end justify-between ">
                         <div class="text-xs text-zinc-600 ">
                             Only on X · Trending
@@ -159,7 +186,7 @@ pending
                     <div class="mx-5 font-bold">#Nepal</div>
                 </div>
 
-                <div class="py-3 hover:bg-zinc-950 cursor-pointer">
+                <div class="py-3 hover:bg-zinc-950 cursor-pointer hover:transition-all duration-300">
                     <div class="trend mx-5 flex items-end justify-between ">
 
 
@@ -171,68 +198,68 @@ pending
 
             </div>
 
-            <div class="my-2 w-3/4 border rounded-2xl border-zinc-900 mx-6">
+            <div class="my-2 w-5/6 border rounded-2xl border-zinc-900 mx-6">
                 <div class="mx-5 my-5 text-xl font-bold">Who To Follow</div>
-<div class="hover:bg-zinc-950 cursor-pointer ">
+                <div class="hover:bg-zinc-950 cursor-pointer hover:transition-all duration-300">
 
 
-                <div class="py-3 flex mx-6 justify-between items-center ">
-                    <div class="flex items-center ">
-                        <div><img class="w-10 rounded-full" src="1st.jpg" alt=""></div>
-                        <div class="mx-2">
-                            <div class="font-bold">
-                                Rohit Sharma
+                    <div class="py-3 flex mx-6 justify-between items-center ">
+                        <div class="flex items-center ">
+                            <div><img class="w-10 rounded-full" src="1st.jpg" alt=""></div>
+                            <div class="mx-2">
+                                <div class="font-bold">
+                                    Rohit Sharma
+                                </div>
+                                <div class="text-s text-zinc-600">@ImRo45</div>
                             </div>
-                            <div class="text-s text-zinc-600">@ImRo45</div>
                         </div>
+                        <div class="text-black text-sm bg-white font-bold px-4 py-2 rounded-3xl">Follow</div>
                     </div>
-                    <div class="text-black text-sm bg-white font-bold px-4 py-2 rounded-3xl">Follow</div>
-                </div>
                 </div>
 
 
-                <div class="hover:bg-zinc-950 cursor-pointer ">
+                <div class="hover:bg-zinc-950 cursor-pointer hover:transition-all duration-300 ">
 
 
-                <div class="py-3 flex mx-6 justify-between items-center ">
-                    <div class="flex items-center ">
-                        <div><img class="w-10 rounded-full" src="2nd.jpg" alt=""></div>
-                        <div class="mx-2">
-                            <div class="font-bold">
-                                Yogi
+                    <div class="py-3 flex mx-6 justify-between items-center ">
+                        <div class="flex items-center ">
+                            <div><img class="w-10 rounded-full" src="2nd.jpg" alt=""></div>
+                            <div class="mx-2">
+                                <div class="font-bold">
+                                    Yogi
+                                </div>
+                                <div class="text-s text-zinc-600">@yogi</div>
                             </div>
-                            <div class="text-s text-zinc-600">@yogi</div>
                         </div>
+                        <div class="text-black text-sm bg-white font-bold px-4 py-2 rounded-3xl">Follow</div>
                     </div>
-                    <div class="text-black text-sm bg-white font-bold px-4 py-2 rounded-3xl">Follow</div>
-                </div>
                 </div>
 
-                <div class="hover:bg-zinc-950 cursor-pointer ">
+                <div class=  " hover:transition-all duration-300 hover:bg-zinc-950 cursor-pointer ">
 
 
-                <div class="py-3 flex mx-6 justify-between items-center ">
-                    <div class="flex items-center ">
-                        <div><img class="w-10 rounded-full" src="3rd.jpg" alt=""></div>
-                        <div class="mx-2">
-                            <div class="font-bold">
-                                Rockstar Games
+                    <div class="py-3 flex mx-6 justify-between items-center ">
+                        <div class="flex items-center ">
+                            <div><img class="w-10 rounded-full" src="3rd.jpg" alt=""></div>
+                            <div class="mx-2">
+                                <div class="font-bold">
+                                    Rockstar
 
+                                </div>
+                                <div class="text-s text-zinc-600">@Rockstar</div>
                             </div>
-                            <div class="text-s text-zinc-600">@RockstarGames</div>
                         </div>
+                        <div class="text-black text-sm bg-white font-bold px-4 py-2 rounded-3xl">Follow</div>
                     </div>
-                    <div class="text-black text-sm bg-white font-bold px-4 py-2 rounded-3xl">Follow</div>
                 </div>
-                </div>
-                 <div class="py-3 hover:bg-zinc-950 cursor-pointer">
+                <div class="py-3 hover:transition-all duration-300 hover:bg-zinc-950 cursor-pointer">
                     <div class="trend mx-5 flex items-end justify-between ">
 
 
                     </div>
                     <div class="mx-5 font-thin text-blue-400">Show More</div>
                 </div>
-                
+
             </div>
 
         </div>

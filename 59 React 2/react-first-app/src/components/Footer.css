@@ -1,0 +1,9 @@
+.fotter{
+    text-align: center;
+  
+    background-color: rgb(21, 21, 21);
+    color: white;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
